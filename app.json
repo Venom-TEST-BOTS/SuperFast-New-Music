@@ -1,12 +1,12 @@
 {
-    "name": "˹ ɢʀᴏᴏᴠʏ ✘ ᴍᴜsɪᴄ ˼",
+    "name": "˹ 𝙻𝚒𝚕𝚢 ✘ ᴍᴜsɪᴄ ˼",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/ab291672a69c38a123a74.jpg",
+    "logo": "https://graph.org/file/89e1c3a393e7115ab76ff.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "GROOVYxMUSIC",
+    "LilyxMUSIC",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
