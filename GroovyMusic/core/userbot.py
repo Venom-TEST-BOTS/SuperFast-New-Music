@@ -51,13 +51,13 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("DECENT_CHATTING")
-                await self.one.join_chat("D3_NETWORK")
+                await self.one.join_chat("THECCHUB")
+                await self.one.join_chat("V3NOM_WORLD")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.one.send_message(config.LOGGER_ID, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙼𝙴𝚁𝙸 𝙹𝙰𝙰𝙽")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
@@ -72,13 +72,13 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("DECENT_CHATTING")
-                await self.one.join_chat("D3_NETWORK")
+                await self.two.join_chat("THECCHUB")
+                await self.one.join_chat("V3NOM_WORLD")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙼𝙴𝚁𝙸 𝙹𝙰𝙰𝙽")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
@@ -93,13 +93,13 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("DECENT_CHATTING")
-                await self.one.join_chat("D3_NETWORK")
+                await self.three.join_chat("thecchunb")
+                await self.one.join_chat("v3nom_world")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.three.send_message(config.LOGGER_ID, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙼𝙴𝚁𝙸 𝙹𝙰𝙰𝙽")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -114,13 +114,13 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("DECENT_CHATTING")
-                await self.one.join_chat("D3_NETWORK")
+                await self.four.join_chat("DECENT_thecchub")
+                await self.one.join_chat("v3nom_world")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.four.send_message(config.LOGGER_ID, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙼𝙴𝚁𝙸 𝙹𝙰𝙰𝙽")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -135,13 +135,13 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("DECENT_CHATTING")
-                await self.one.join_chat("D3_NETWORK")
+                await self.five.join_chat("thecchub")
+                await self.one.join_chat("v3nom_world")
             except:
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.five.send_message(config.LOGGER_ID, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙼𝙴𝚁𝙸 𝙹𝙰𝙰𝙽")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -154,7 +154,7 @@ class Userbot(Client):
             LOGGER(__name__).info(f"Assistant Five Started as {self.five.name}")
 
     async def stop(self):
-        LOGGER(__name__).info(f"Stopping Assistants...")
+        LOGGER(__name__).info(f"𝚂𝚃𝙾𝙿 𝙷𝙾 RHA🥺...")
         try:
             if config.STRING1:
                 await self.one.stop()
