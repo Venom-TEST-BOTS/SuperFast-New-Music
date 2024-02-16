@@ -14,21 +14,21 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Groovy_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Groovymusic")
+BOT_NAME = getenv("BOT_NAME" , "")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1642149912))
+OWNER_ID = int(getenv("OWNER_ID", ))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -38,15 +38,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Skyxlor/GROOVYxMUSIC",
+    "https://github.com/AATANKI-BOTS/NEW-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/D3_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/groovy_supportt")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+T596uV8t2J4zMjY1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Atma_Support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,21 +84,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/ab291672a69c38a123a74.jpg"
+    "START_IMG_URL", "https://graph.org/file/cfa252c8619886dd9ce28.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/6a0953d3f04eba37c9b25.jpg"
+    "PING_IMG_URL", "https://graph.org/file/4a72c60cab00853718087.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ce5ffb3d5f383c781f234.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/89e1c3a393e7115ab76ff.jpg"
+STATS_IMG_URL = "https://graph.org/file/89e1c3a393e7115ab76ff.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/a52584b57a0dd44f62c8f.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/a52584b57a0dd44f62c8f.jpg"
+STREAM_IMG_URL = "https://graph.org/file/89e1c3a393e7115ab76ff.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/2a0840ee7b5ef1c0ed511.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/f2d8de51c5a313f82359e.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4b11c10cf7c7bdf1b5fe5.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/4b11c10cf7c7bdf1b5fe5.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/4b11c10cf7c7bdf1b5fe5.jpg"
 
 
 def time_to_seconds(time):
