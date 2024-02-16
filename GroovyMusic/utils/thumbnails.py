@@ -69,7 +69,7 @@ async def get_thumb(videoid):
                     await f.close()
 
         
-        colors = ["white", "red", "orange", "yellow", "green", "cyan", "azure", "blue", "violet", "magenta", "pink", "black", " purple", "Chartreuse"]
+        colors = ["white", "red", "orange", "yellow", "green", "cyan", "azure", "blue", "violet", "magenta", "pink"]
         border = random.choice(colors)
         youtube = Image.open(f"cache/thumb{videoid}.png")
         image1 = changeImageSize(1300, 780, youtube)
