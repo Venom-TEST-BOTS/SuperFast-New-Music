@@ -19,7 +19,7 @@ def queue_markup(
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
-                callback_data="𝚌𝚕𝚘𝚜𝚎",
+                callback_data="close",
             ),
         ]
     ]
@@ -32,12 +32,12 @@ def queue_markup(
         ],
         [
             InlineKeyboardButton(
-                text=_["venom"],
+                text=_["QU_B_1"],
                 callback_data=f"GetQueued {CPLAY}|{videoid}",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
-                callback_data="𝚌𝚕𝚘𝚜𝚎",
+                callback_data="close",
             ),
         ],
     ]
@@ -55,7 +55,7 @@ def queue_back_markup(_, CPLAY):
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
-                    callback_data="𝚌𝚕𝚘𝚜𝚎",
+                    callback_data="close",
                 ),
             ]
         ]
