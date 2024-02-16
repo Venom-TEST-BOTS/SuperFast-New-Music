@@ -8,7 +8,7 @@ from ..logging import LOGGER
 
 class Anony(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot...")
+        LOGGER(__name__).info(f"𝙱𝙾𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝚁𝙰𝙷𝙰 𝙼𝙴𝚁𝙸 𝙹𝙰𝙰𝙽...")
         super().__init__(
             name="GroovyMusic",
             api_id=config.API_ID,
@@ -29,7 +29,7 @@ class Anony(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"<u><b>» {self.mention} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :</b><u>\n\nɪᴅ : <code>{self.id}</code>\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
+                text=f"<u><b>» {self.mention} 𝙱𝙾𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙱𝙰𝙱𝚄 🐼 :</b><u>\n\nɪᴅ : <code>{self.id}</code>\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
@@ -48,7 +48,7 @@ class Anony(Client):
                 "Please promote your bot as an admin in your log group/channel."
             )
             exit()
-        LOGGER(__name__).info(f"Music Bot Started as {self.name}")
+        LOGGER(__name__).info(f"𝙸𝚂𝙽𝙴 𝚂𝚃𝙰𝚁𝚃 𝙺𝙸𝚈𝙰 𝙼𝙴𝚁𝙺𝙾 {self.name}")
 
     async def stop(self):
         await super().stop()
