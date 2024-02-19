@@ -75,7 +75,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="•𝐇𝙴𝚁𝙾𝙺𝚄~𝙲𝙲•", url="https://t.me/THECCHUB",
             )
         ],
-         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="⚡𝐂ʟᴏsᴇ⚡")],
+         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ")],
     ]
     return buttons
 
@@ -97,7 +97,7 @@ def stream_markup(_, chat_id):
                 text="•𝐇𝙴𝚁𝙾𝙺𝚄~𝙲𝙲•", url="https://t.me/THECCHUB",
             )
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="⚡𝐂ʟᴏsᴇ⚡)],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ)],
     ]
     return buttons
 
