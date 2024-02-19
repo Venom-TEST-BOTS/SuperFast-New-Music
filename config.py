@@ -8,7 +8,7 @@ load_dotenv()
 
 # Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH") 
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -28,7 +28,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", ))
+OWNER_ID = int(getenv("OWNER_ID", 6680361392))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
