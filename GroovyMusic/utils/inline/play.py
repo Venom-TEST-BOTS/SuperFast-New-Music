@@ -56,9 +56,9 @@ def stream_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="𝐈𝐈", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="‣‣𝐈𝐈", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
@@ -75,7 +75,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="•𝐇𝙴𝚁𝙾𝙺𝚄~𝙲𝙲•", url="https://t.me/THECCHUB",
             )
         ],
-         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ-𝐊ᴀʀᴏ")],
     ]
     return buttons
 
@@ -84,20 +84,20 @@ def stream_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="𝐈𝐈", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="‣‣𝐈", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
             InlineKeyboardButton(
-                text="•𝐃𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁•", url="https://t.me/ITS_ARYAAN",
+                text="•𝐃ᴇᴠᴇʟᴏᴘᴇʀ•", url="https://t.me/ITS_ARYAAN",
             ),
             InlineKeyboardButton(
-                text="•𝐇𝙴𝚁𝙾𝙺𝚄~𝙲𝙲•", url="https://t.me/THECCHUB",
+                text="•𝐇ᴇʀᴏᴋᴜ~ᴄᴄ•", url="https://t.me/THECCHUB",
             )
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ-𝐊ᴀʀᴏ")],
     ]
     return buttons
 
